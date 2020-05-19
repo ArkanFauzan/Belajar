@@ -1,0 +1,38 @@
+/*Bagian Header*/
+div.div_menu{
+  background-color: black;
+  margin-top: 10px;
+}
+div table .menu{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/*Bagian main*/
+div.slider-div {
+  text-align: center;
+  margin-top: 10px;
+}
+div.slider-div img{
+  width: 47%;
+  text-align: : center;
+}
+div p {
+  text-align: justify;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+
+/*Bagian Footer*/
+footer{
+  background-color: black;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 13.6px;
+}
+footer div.footer{
+  font-size: 20px;
+  text-transform: uppercase;
+}

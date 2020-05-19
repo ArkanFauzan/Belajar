@@ -1,0 +1,91 @@
+body{
+  background-image: url(molekul.jpg);
+  background-size: 200px;
+  background-repeat: repeat;
+  background-blend-mode: hard-light;
+}
+.container-fluid{
+  overflow-x: hidden;
+  padding: 10px;
+}
+nav{
+  position: relative;
+  margin-left: 20px;
+}
+button.menu{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.dropdown-child{
+  display: none;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+li.bg-primary{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.dropdown-child a{
+  color: white;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.dropdown-child li:hover{
+  background-color: #8bd9e8 !important;
+}
+.dropdown-child a:hover{
+  color: black;
+}
+.aktif{
+  color: black !important;
+}
+/* membuat list muncul */
+.dropdownn:hover .dropdown-child{
+  display: block;
+}
+
+/* Bagian Konten */
+.title{
+  font-family: cursive;
+  font-size: 30px;
+}
+.text{
+  text-align: justify;
+  background-color: white;
+  padding: 10px;
+}
+.carousel img{
+  height: 435px;
+}
+.media img{
+  width: 100px;
+  height: 100px;
+}
+.media.my-4 img{
+  margin-left: 15px;
+}
+/* bagian Sidebar */
+.sub-red{
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin-left: 10%;
+}
+.sub-red p{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.a{
+  padding-top: 43px;
+}
+.e, .s{
+  padding-top:25px;
+}

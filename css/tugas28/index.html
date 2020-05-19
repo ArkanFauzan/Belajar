@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas CSS - NIOMIC</title>
+    <!-- online file -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+    ></script>
+    <style media="screen">
+      *{
+        margin: 0 auto;
+      }
+      body{
+        background-color: #333333;
+        padding: 50px;
+        color: white;
+      }
+      img{
+        display: block;
+        margin-bottom: 20px;
+      }
+      .aturan{
+        color: #4085f5;
+      }
+      .font-kecil{
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col-md-4">
+      <img src="lampung.jpg"  class="rounded-circle" width="150px" alt="Lampung">
+      <form>
+        <div class="form-group">
+          <label> Nama Lengkap </label>
+          <input type="text" class="form-control" placeholder="Nama Lengkap">
+        </div>
+        <div class="form-group">
+          <label> Alamat Rumah </label>
+          <textarea class="form-control" rows="2"> </textarea>
+        </div>
+        <div class="form-group">
+          <label> Alamat Email </label>
+          <input type="email" class="form-control" disabled placeholder="Alamat email (disabled)">
+        </div>
+        <div class="form-group">
+          <label> Password </label>
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label> Scan KTP </label>
+          <input type="file" class="form-control-file">
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="checkbox" class="form-check-input" name="Setuju">
+          <label class="form-check-label font-kecil">Saya <u>setuju</u> dan telah membaca <span class="aturan">aturan</span> serta <span class="aturan">ketentuan</span> yang berlaku</label>
+        </div>
+        <div>
+        <button type="button" class="btn btn-info btn-block mt-3">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
